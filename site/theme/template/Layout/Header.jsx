@@ -148,17 +148,17 @@ class Header extends React.Component {
       >
         <FormattedMessage id="app.header.lang" />
       </Button>,
-      <Select
-        key="version"
-        className="version"
-        size="small"
-        dropdownMatchSelectWidth={false}
-        defaultValue={antdVersion}
-        onChange={this.handleVersionChange}
-        getPopupContainer={trigger => trigger.parentNode}
-      >
-        {versionOptions}
-      </Select>,
+      // <Select
+      //   key="version"
+      //   className="version"
+      //   size="small"
+      //   dropdownMatchSelectWidth={false}
+      //   defaultValue={antdVersion}
+      //   onChange={this.handleVersionChange}
+      //   getPopupContainer={trigger => trigger.parentNode}
+      // >
+      //   {versionOptions}
+      // </Select>,
       <Menu
         className="menu-site"
         mode={menuMode}

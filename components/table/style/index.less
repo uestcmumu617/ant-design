@@ -1,4 +1,5 @@
 @import '../../style/themes/index';
+@import '../../style/themes/default.less';
 @import '../../style/mixins/index';
 
 @table-prefix-cls: ~'@{ant-prefix}-table';
@@ -657,11 +658,11 @@
   }
 
   &-hide-scrollbar {
+    min-width: unset;
     // https://github.com/ant-design/ant-design/issues/4637
     // https://stackoverflow.com/a/54101063
     // https://github.com/react-component/table/pull/333
     scrollbar-color: transparent transparent;
-    min-width: unset;
 
     &::-webkit-scrollbar {
       // set min width to window chrome scrollbar
